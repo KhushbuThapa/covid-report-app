@@ -1,6 +1,6 @@
-# Send Email for Valid Email Addresses
+# Covid Report App
 
-Simple python program that validates the email addresses and send emails while log the invalid emails
+Simple python app that consumes data from Rapid API and render total number of infections, recovered and deaths from Covid in simple GUI enabling user to update as well.
 
 ## Getting started:
 ##### (eg. in any Linux distribution, you can follow a similar process in another os also.)
@@ -21,7 +21,9 @@ django-admin collectstatic
 ```
 5. Create `env.py` inside `<project_name/`. Copy from `env.example.py` for the first time and update settings as your requirements.
 
-6. To run program 
+6. Create and set RAPID API Key to function 
+   
+7. To run app 
 ```bash
 python3 interface.py
 ```
